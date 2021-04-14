@@ -7,7 +7,23 @@ console.log('První příklad - vzestupná řada 0 - 10');
 
 //TADY NAPIS CYKLUS
 
-console.log('-------------------');
+let cisla = [];
+
+for (let i = 0; i <= 10; i = i + 1) {
+cisla.push(i);
+}
+
+console.log(cisla);
+
+//WHILE CYKLUS 1. příklad
+
+let a = 0;
+
+while(a <= 10) {
+    a++;
+}
+
+console.log('while ' + cisla);
 
 
 
@@ -17,9 +33,46 @@ console.log('-------------------');
 
 console.log('Druhý příklad - rozdíl mezi <= a <');
 
-//TADY NAPIS CYKLUS
+//TADY NAPIS CYKLUS <=
 
-console.log('-------------------');
+let cislaDruhyPriklad = [];
+
+for (let i = 0; i <= 10; i = i + 1) {
+    cislaDruhyPriklad.push(i);
+    }
+
+    console.log(cislaDruhyPriklad);
+
+        //WHILE CYKLUS 2. příklad <=
+
+            let b = 0;
+
+            while(b <= 10) {
+            b++;
+            }
+
+            console.log('while ' + cislaDruhyPriklad);
+
+//TADY NAPIS CYKLUS <
+
+
+let cislaDruhyPrikladB = [];
+
+for (let i = 0; i < 10; i = i + 1) {
+    cislaDruhyPrikladB.push(i);
+    }
+
+    console.log(cislaDruhyPrikladB);
+
+        //WHILE CYKLUS 2. příklad <
+        
+            let c = 0;
+
+            while(c < 10) {
+            c++;
+            }
+
+            console.log('while ' + cislaDruhyPrikladB);
 
 
 
@@ -28,4 +81,24 @@ console.log('Třetí příklad - sestupná řada 10 - 0');
 
 //TADY NAPIS CYKLUS
 
-console.log('-------------------');
+let cislaTretiPriklad = [];
+for (let i = 10; i >= 0; i = i - 1) {
+    cislaTretiPriklad.push(i);
+    }
+    
+    console.log(cislaTretiPriklad);
+
+    //WHILE CYKLUS 3. příklad 
+   
+
+        let i = 10;
+
+        while(i >= 0) {
+        i--;
+        }
+
+        console.log('while ' + cislaTretiPriklad);
+
+
+
+
